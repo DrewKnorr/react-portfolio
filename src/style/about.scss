@@ -1,0 +1,21 @@
+.about-page-wrapper{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+    .left-column{
+        height:90vh;
+        width:40vw;
+        background-image: url("../../static/assets/images/bio/headshot.jpg");
+        background-size:100% 100%;
+        background-repeat: none;
+        margin-left:25px;
+    }
+    .right-column{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:5%;
+    }
+}
